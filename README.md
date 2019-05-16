@@ -1,4 +1,4 @@
-# navbar view in mobile problem
+# navbar view on mobile problem
 
 # bootstrap
 
