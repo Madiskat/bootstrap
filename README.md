@@ -1,3 +1,5 @@
+# background and transparent div values
+
 # navbar view on mobile problem
 
 # bootstrap
