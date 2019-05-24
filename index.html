@@ -23,7 +23,7 @@
     <ul class="navbar-nav" style="text-align: center">
       <li class="nav-item align-baseline">
         <span class="navbar-text " style="color:azure">
-          30-days FREE trial offer ends in:
+          30-days FREE trial offer ends in:  
         </span>
         <a id="countDown"></a>
         <button type="button" class="btn btn-primary" id="navCTA">JOIN NOW</button>
@@ -31,8 +31,8 @@
     </ul>
 
     <form class="form-inline  d-none d-lg-block">
-      <button class="btn btn-sm btn-outline-secondary" type="button">Social media</button>
-      <button class="btn btn-sm btn-outline-secondary" type="button">Social media</button>
+      <a href="#" class="fa fa-facebook" id="faceID"></a>
+      <a href="#" class="fa fa-instagram" id="instaID"></a>
     </form>
   </nav>
 
@@ -87,7 +87,7 @@
     <div class="row">
       <div class="col-md-6">
 
-        <h2>FIND THE NEAREST GYM FOR YOU</h2>
+        <h2>Find the nearest gym for you</h2>
         <div class="form-group has-search">
           <span class="fa fa-search form-control-feedback"></span>
           <input type="text" class="form-control" placeholder="Enter city or street name">
@@ -104,15 +104,15 @@
 
         </div>
 
-        <ul class="list-group" style="margin-top: 1em; margin-bottom: 1em">
+        <ul class="list-group" style="margin-top: 1.5em; margin-bottom: 1.5em">
           <li class="list-group-item">
-            <h3>OFFERING CONTENT TEXT</h3>
+            <h2>Benefits of joining the membership</h2>
           </li>
 
+          <li class="list-group-item list-group-item-primary">30-days free trial for new members</li>
+          <li class="list-group-item list-group-item-primary2">Great value gym memberships from €14.99/month</li>
           <li class="list-group-item list-group-item-primary">Over 20 gyms nationwide in great locations</li>
-          <li class="list-group-item list-group-item-primary">Gyms open 24/7</li>
-          <li class="list-group-item list-group-item-primary">Over 30 free classes every week</li>
-          <li class="list-group-item list-group-item-primary">Great value gym memberships from €14.99/month</li>
+          <li class="list-group-item list-group-item-primary2">Gyms open 24/7</li>
 
         </ul>
       </div>
@@ -120,7 +120,7 @@
       
 
       <div class="col-md-6">
-        <h2>TESTIMONAILS</h2>
+        <h2>Testimonials</h2>
         <div class="card mb-3" style="max-width: 100%">
           <div class="row no-gutters">
 
@@ -153,7 +153,7 @@
           </div>
         </div>
 
-        <div class="card mb-3" style="max-width: 100%">
+        <div class="card mb-3 d-none d-sm-block" style="max-width: 100%">
           <div class="row no-gutters">
             <div class="col-md-4">
               <img src="images/ott_kiivikas.jpeg" class="card-img" alt="Ott Kiivikas" style="width:150px">
@@ -168,7 +168,7 @@
           </div>
         </div>
 
-        <div class="card mb-3" style="max-width: 100%">
+        <div class="card mb-3 d-none d-sm-block" style="max-width: 100%">
           <div class="row no-gutters">
             <div class="col-md-4">
               <img src="images/ott_kiivikas.jpeg" class="card-img" alt="Ott Kiivikas" style="width:150px">
@@ -189,11 +189,11 @@
 
   <hr>
 
-  <div class="container-fluid" style=" height:150px; background-color:rgba(21, 25, 30, 0.90)">
+  <div class="container-fluid" style=" height:180px; background-color:rgba(21, 25, 30, 0.90)">
     <div class="row">
       <div class="col">
       </div>
-      <div class="col-6" style="text-align:center; padding: 0.7em; color:azure">
+      <div class="col-6" style="text-align:center; padding-top: 0.7em; padding-bottom: 0.2em; color:azure">
         <h4>30-DAYS FREE TRIAL</h4>
       </div>
       <div class="col">
@@ -215,36 +215,14 @@
   <footer style="color:white">
     <div class="container-fluid" style=" height:150px; background-color:#343a40">
       <div class="row">
-        <div class="col" style="text-align:center; padding: 0.7em">LOGO
-        </div>
+        <a class="navbar-brand" href="#" >
+          <img src="images/logo.svg" width="60" height="60" style="padding-left: 0.3em" class="d-inline-block align-top" alt="">
+        </a>
+    
         <div class="col-6" style="text-align:center; padding: 0.7em">
-          <h6>LOCATIONS</h6>
+          <h6>Footerisse sotsmeedia nupud</h6>
         </div>
         <div class="col">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-2">
-        </div>
-        <div class="col-md-8" style="text-align:center">
-          <div class="row">
-            <div class="col-8 col-md-3">
-              Address1
-            </div>
-            <div class="col-4 col-md-3">
-              Address2
-            </div>
-            <div class="col-4 col-md-3">
-              Address3
-            </div>
-            <div class="col-4 col-md-3">
-              Address4
-            </div>
-          </div>
-        </div>
-        <div class="col-md-2">
-          <button class="btn btn-sm btn-outline-secondary" type="button">Social media</button>
-          <button class="btn btn-sm btn-outline-secondary" type="button">Social media</button>
         </div>
       </div>
     </div>
@@ -279,6 +257,31 @@
         document.getElementById("countDown").innerHTML = "EXPIRED";
       }
     }, 1000);
+    
+    //fade teema facebook
+    $(window).scroll(function(){
+  var threshold = 500; // number of pixels before bottom of page that you want to start fading
+  var op = (($(document).height() - $(window).height()) - $(window).scrollTop()) / threshold;
+	if( op <= 0 ){
+		$("#faceID").hide();
+	} else {
+		$("#faceID").show();
+	}
+	$("#faceID").css("opacity", op ); 
+});
+
+ //fade teema instagramm
+ $(window).scroll(function(){
+  var threshold = 500; // number of pixels before bottom of page that you want to start fading
+  var op = (($(document).height() - $(window).height()) - $(window).scrollTop()) / threshold;
+	if( op <= 0 ){
+		$("#instaID").hide();
+	} else {
+		$("#instaID").show();
+	}
+	$("#instaID").css("opacity", op ); 
+});
+
   </script>
 
 </body>
