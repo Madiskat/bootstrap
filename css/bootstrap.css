@@ -83,7 +83,7 @@ body {
 
 #countDown {
   text-align: center;
-  color: red;
+  color:#FB8122;
 }
 
 #info {
@@ -91,7 +91,7 @@ body {
 }
 
 #offerValue {
-  color: red;
+  color: azure;
   padding: 3em;
 }
 
@@ -102,6 +102,7 @@ body {
 #navCTA {
   margin-left: 1em;
   width: 200px;
+  margin: 0.2em;
 }
 
 hr {
@@ -2616,40 +2617,40 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #FB8122;
+  border-color: #FB8122;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
+  background-color: #FB8122;
+  border-color: #FB8122;
 }
 
 .btn-primary:focus,
 .btn-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(251, 129, 34, 0.5);
 }
 
 .btn-primary.disabled,
 .btn-primary:disabled {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #FB8122;
+  border-color: #FB8122;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #0062cc;
-  border-color: #005cbf;
+  background-color: #FB8122;
+  border-color: #FB8122;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .btn-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(251, 129, 34, 0.5);
 }
 
 .btn-secondary {
@@ -6969,7 +6970,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: #1D2228 !important;
 }
 
 a.bg-dark:hover,
@@ -10461,3 +10462,16 @@ a.text-dark:focus {
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
+
+@media (max-width: 767px) {
+  .container-fluid, .row {
+    padding:6px;
+  }
+  .navbar-header {
+    margin:0px;
+  }
+  .view {
+    background-image: none !important; 
+  }
+
+}
