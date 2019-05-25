@@ -92,7 +92,7 @@ body {
 
 #offerValue {
   color: azure;
-  padding: 3em;
+  padding: 2em;
 }
 
 #pohiCTA {
@@ -488,7 +488,7 @@ hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid azure;
 }
 
 small,
@@ -5857,12 +5857,12 @@ a.badge-dark.focus {
 
 .list-group-item-primary {
   color: azure;
-  background-color: #343a40;
+  background-color: #0b125a;
 }
 
 .list-group-item-primary2 {
   color: azure;
-  background-color: #272729;
+  background-color: #111b88;
 }
 
 .list-group-item-primary.list-group-item-action:hover,
@@ -6980,14 +6980,14 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #1D2228 !important;
+  background-color: #0b125a !important;
 }
 
 a.bg-dark:hover,
 a.bg-dark:focus,
 button.bg-dark:hover,
 button.bg-dark:focus {
-  background-color: #1d2124 !important;
+  background-color: #0b125a !important;
 }
 
 .bg-white {
