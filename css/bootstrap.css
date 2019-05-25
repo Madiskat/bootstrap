@@ -92,7 +92,8 @@ body {
 
 #offerValue {
   color: azure;
-  padding: 2em;
+  padding: 1em;
+  margin: 1em 1em;
 }
 
 #pohiCTA {
@@ -109,7 +110,7 @@ hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
-  padding: 0.5em;
+  padding: 0.2em;
 }
 
 h1,
@@ -2625,13 +2626,13 @@ fieldset:disabled a.btn {
 .btn-primary:hover {
   opacity: 0.8;
   color: #fff;
-  background-color: #FB9708;
+  background-color: #FB8122;
   border-color: #FB8122;
 }
 
 .btn-primary:focus,
 .btn-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(251, 129, 34, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(197, 109, 9, 0.534);
   opacity: 0.7;
 }
 
@@ -10489,14 +10490,13 @@ a.text-dark:focus {
     background-color: #1D3A58 !important;
     margin: 0px !important
   }
-
 }
 
 
 
 
 .fa {
-  padding: 20px;
+  padding: 0px;
   font-size: 30px;
   width: 50px;
   text-align: center;
@@ -10512,10 +10512,23 @@ a.text-dark:focus {
 .fa-facebook {
   background: #3B5998;
   color: white;
+  padding: 20px;
 }
 
 .fa-instagram {
   background: #125688;
   color: white;
+  padding: 20px;
 }
 
+@media screen and (min-width: 800px) {
+ #kaartID {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: 0px !important;
+}
+#kaartID2 {
+margin: 2em 2em
+}
+
+}
