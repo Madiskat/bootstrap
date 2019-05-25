@@ -123,6 +123,7 @@ h6 {
   font-family: "Crimson Text", serif;
 }
 
+
 p {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -10472,6 +10473,10 @@ a.text-dark:focus {
 
 /*# sourceMappingURL=bootstrap.css.map */
 
+@media screen and (min-width: 600px)  {
+  .mobile-break { display: none; }
+}
+
 @media (max-width: 767px) {
   .container-fluid, .row {
     padding:6px;
@@ -10484,6 +10489,7 @@ a.text-dark:focus {
   }
 
 }
+
 
 
 

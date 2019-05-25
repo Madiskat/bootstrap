@@ -1,6 +1,10 @@
-#add socialmedia buttons to footer
+#navbar mobile breaks added
 
-# background and transparent div values
+# constatnt button style lining style
+
+# add socialmedia buttons to footer
+
+#background and transparent div values
 
 # navbar view on mobile problem
 
