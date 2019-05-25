@@ -83,7 +83,7 @@ body {
 
 #countDown {
   text-align: center;
-  color:#FB8122;
+  color:#FB9708;
 }
 
 #info {
@@ -2625,7 +2625,7 @@ fieldset:disabled a.btn {
 .btn-primary:hover {
   opacity: 0.8;
   color: #fff;
-  background-color: #FB8122;
+  background-color: #FB9708;
   border-color: #FB8122;
 }
 
@@ -5862,7 +5862,7 @@ a.badge-dark.focus {
 
 .list-group-item-primary2 {
   color: azure;
-  background-color: #111b88;
+  background-color: #3544e3;
 }
 
 .list-group-item-primary.list-group-item-action:hover,
@@ -6980,7 +6980,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #0b125a !important;
+  background-color: #1D3A58!important;
 }
 
 a.bg-dark:hover,
@@ -10486,6 +10486,8 @@ a.text-dark:focus {
   }
   .view {
     background-image: none !important; 
+    background-color: #1D3A58 !important;
+    margin: 0px !important
   }
 
 }
