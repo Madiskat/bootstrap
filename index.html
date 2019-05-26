@@ -3,32 +3,33 @@
 
 <head>
   <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Crimson+Text:400,600">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Crimson+Text:400,600" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" />
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.js"></script>
 </head>
 
 <body>
-
-  <nav class="navbar sticky-top navbar-dark bg-dark" >
-    <a class="d-none d-sm-block navbar-brand" href="#" >
-      <img src="images/logo.svg" width="60" height="60" class="d-inline-block align-top" alt="">
+  <nav class="navbar sticky-top navbar-dark bg-dark" id="hideNAV">
+    <a class="d-none d-sm-block navbar-brand" href="#">
+      <img src="images/logo.svg" width="60" height="60" class="d-inline-block align-top" alt="" />
     </a>
 
     <ul class="navbar-nav" style="text-align: center">
       <li class="nav-item align-baseline">
         <span class="navbar-text " style="color:azure">
-          30-days FREE trial offer ends in:  
+          30-days FREE trial offer ends in:
         </span>
-        <br class="mobile-break">
+        <br class="mobile-break" />
         <a id="countDown"></a>
-        <br class="mobile-break">
-        <button type="button" class="btn btn-primary" id="navCTA">JOIN NOW</button>
+        <br class="mobile-break" />
+        <button type="button" class="btn btn-primary" id="navCTA">
+          JOIN NOW
+        </button>
       </li>
     </ul>
 
@@ -40,37 +41,42 @@
 
   <div class="view" style="background-image: url(../images/taust6.jpg); background-position: center;  background-size: cover;
   background-repeat: no-repeat;">
- 
-
     <div class="container-fluid" style="height:100%;">
       <div class="row">
-        <div class="col-md-6" id="offerValue" style="padding-bottom: 2em; padding-top: 1em; background: rgba(29, 58, 88, 0.90); margin-bottom: 1.5em">
-          <h1 class=" vertical" style="margin-bottom: 0.1em; text-align:center; font-size: 3em; font-weight: bold; ">30-DAYS FREE TRIAL <br> <h4 style="text-align:center;">Gym memberships from only €14.99/month</h4></h1>
-          <h2 style="margin-top: 3em; color:azure; text-align:center">Enter your information to join</h2>
+        <div class="col-md-6" id="offerValue"
+          style="padding-bottom: 2em; padding-top: 1em; background: rgba(29, 58, 88, 0.90); margin-bottom: 1.5em">
+          <h1 class=" vertical" style="margin-bottom: 0.1em; text-align:center; font-size: 3em; font-weight: bold; ">
+            30-DAYS FREE TRIAL <br />
+            <h4 style="text-align:center;">
+              Gym memberships from only €14.99/month
+            </h4>
+          </h1>
+          <h2 style="margin-top: 3em; color:azure; text-align:center">
+            Enter your information to join
+          </h2>
           <form>
             <div class="row">
               <div class="form-group col-md-6">
                 <div class="form-group">
-                  <input type="Text" class="form-control" placeholder="Enter name">
+                  <input type="Text" class="form-control" placeholder="Enter name" />
                 </div>
               </div>
               <div class="form-group col-md-6">
                 <div class="form-group">
-                  <input type="Text" class="form-control" placeholder="Enter phone number">
+                  <input type="Text" class="form-control" placeholder="Enter phone number" />
                 </div>
               </div>
             </div>
             <div class="form-group" style="padding-bottom: 1em">
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                placeholder="Enter email">
+                placeholder="Enter email" />
             </div>
-            <button type="submit" class="btn btn-primary" id="pohiCTA">JOIN NOW</button>
+            <button type="submit" class="btn btn-primary" id="pohiCTA">
+              JOIN NOW
+            </button>
           </form>
         </div>
-        <div class="col-md-6">
-
-        </div>
-
+        <div class="col-md-6"></div>
       </div>
     </div>
   </div>
@@ -79,185 +85,206 @@
   background-repeat: no-repeat;">
     <div class="row">
       <div class="col-md-12" id="kaartID2">
-
-        <h2 style="color: azure; text-align: center">FIND THE NEAREST GYM FOR YOU</h2>
+        <h2 style="color: azure; text-align: center">
+          FIND THE NEAREST GYM FOR YOU
+        </h2>
         <div class="form-group has-search">
           <span class="fa fa-search form-control-feedback"></span>
-          <input type="text" class="form-control" placeholder="Enter city or street name">
+          <input type="text" class="form-control" placeholder="Enter city or street name" />
         </div>
         <div class="row">
-
-          <div class="col-md-12" >
-
+          <div class="col-md-12">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2646.2531389455903!2d-89.23024619999998!3d48.4516724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d5923dbfe697737%3A0xc9d925c9bc9573fa!2s116+Bruce+St%2C+Thunder+Bay%2C+ON+P7A+5W6!5e0!3m2!1sen!2sca!4v1424272264157"
               width="100%" height="380px" frameborder="0" style="border:0"></iframe>
           </div>
         </div>
-        </div>
       </div>
-      </div>
-    
-<!-- Section: Testimonials v.1 -->
-<section class="text-center my-5 p-1" >
-
-  <!-- Section heading -->
-  <h2>TESTIMONIALS</h2>
- 
-  <!-- Grid row -->
-  <div class="row">
-
-    <!--Grid column-->
-    <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
-      <!--Card-->
-      <div class="card testimonial-card">
-        <!--Background color-->
-        <div class="card-up info-color"></div>
-        <!--Avatar-->
-        <div class="avatar mx-auto white">
-          <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg" class="rounded-circle img-fluid">
-        </div>
-        <div class="card-body" style="background-color: #1D3A58">
-          <!--Name-->
-          <h4 class="font-weight-bold mb-4" style="color: azure">John Doe</h4>
-          <hr>
-          <!--Quotation-->
-          <p class="dark-grey-text mt-4" style="color: azure"><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet eos
-            adipisci, consectetur adipisicing elit.</p>
-        </div>
-      </div>
-      <!--Card-->
     </div>
-    <!--Grid column-->
-
-    <!--Grid column-->
-    <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
-      <!--Card-->
-      <div class="card testimonial-card">
-        <!--Background color-->
-        <div class="card-up blue-gradient">
-        </div>
-        <!--Avatar-->
-        <div class="avatar mx-auto white">
-          <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg" class="rounded-circle img-fluid">
-        </div>
-        <div class="card-body"  style="background-color: #1D3A58">
-          <!--Name-->
-          <h4 class="font-weight-bold mb-4" style="color: azure">Anna Aston</h4>
-          <hr>
-          <!--Quotation-->
-          <p class="dark-grey-text mt-4" style="color: azure"><i class="fa fa-quote-left"></i>Neque cupiditate assumenda in
-            maiores repudiandae mollitia architecto.</p>
-        </div>
-      </div>
-      <!--Card-->
-    </div>
-    <!--Grid column-->
-
-    <!--Grid column-->
-    <div class="col-lg-4 col-md-6 d-none d-sm-block">
-      <!--Card-->
-      <div class="card testimonial-card">
-        <!--Background color-->
-        <div class="card-up indigo"></div>
-        <!--Avatar-->
-        <div class="avatar mx-auto white">
-          <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg" class="rounded-circle img-fluid">
-        </div>
-        <div class="card-body" style="background-color: #1D3A58">
-          <!--Name-->
-          <h4 class="font-weight-bold mb-4"  style="color: azure">Maria Kate</h4>
-          <hr>
-          <!--Quotation-->
-          <p class="dark-grey-text mt-4"  style="color: azure"><i class="fa fa-quote-left"></i>Delectus impedit saepe officiis
-            ab aliquam repellat rem unde ducimus.</p>
-        </div>
-      </div>
-      <!--Card-->
-    </div>
-    <!--Grid column-->
-
   </div>
-  <!-- Grid row -->
 
-</section>
-<!-- Section: Testimonials v.1 -->
+  <!-- Section: Testimonials v.1 -->
+  <section class="text-center my-5 p-1">
+    <!-- Section heading -->
+    <h2>TESTIMONIALS</h2>
 
+    <!-- Grid row -->
+    <div class="row">
+      <!--Grid column-->
+      <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+        <!--Card-->
+        <div class="card testimonial-card">
+          <!--Background color-->
+          <div class="card-up info-color"></div>
+          <!--Avatar-->
+          <div class="avatar mx-auto white">
+            <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg" class="rounded-circle img-fluid" />
+          </div>
+          <div class="card-body" style="background-color: #1D3A58">
+            <!--Name-->
+            <h4 class="font-weight-bold mb-4" style="color: azure">
+              John Doe
+            </h4>
+            <hr />
+            <!--Quotation-->
+            <p class="dark-grey-text mt-4" style="color: azure">
+              <i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet eos
+              adipisci, consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+        <!--Card-->
+      </div>
+      <!--Grid column-->
 
-<section class="text-center my-5 p-1" style="background-image: url(../images/gradTaust3.jpg); background-position: center;  background-size: cover;
+      <!--Grid column-->
+      <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
+        <!--Card-->
+        <div class="card testimonial-card">
+          <!--Background color-->
+          <div class="card-up blue-gradient"></div>
+          <!--Avatar-->
+          <div class="avatar mx-auto white">
+            <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg" class="rounded-circle img-fluid" />
+          </div>
+          <div class="card-body" style="background-color: #1D3A58">
+            <!--Name-->
+            <h4 class="font-weight-bold mb-4" style="color: azure">
+              Anna Aston
+            </h4>
+            <hr />
+            <!--Quotation-->
+            <p class="dark-grey-text mt-4" style="color: azure">
+              <i class="fa fa-quote-left"></i>Neque cupiditate assumenda in
+              maiores repudiandae mollitia architecto.
+            </p>
+          </div>
+        </div>
+        <!--Card-->
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-4 col-md-6 d-none d-sm-block">
+        <!--Card-->
+        <div class="card testimonial-card">
+          <!--Background color-->
+          <div class="card-up indigo"></div>
+          <!--Avatar-->
+          <div class="avatar mx-auto white">
+            <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg" class="rounded-circle img-fluid" />
+          </div>
+          <div class="card-body" style="background-color: #1D3A58">
+            <!--Name-->
+            <h4 class="font-weight-bold mb-4" style="color: azure">
+              Maria Kate
+            </h4>
+            <hr />
+            <!--Quotation-->
+            <p class="dark-grey-text mt-4" style="color: azure">
+              <i class="fa fa-quote-left"></i>Delectus impedit saepe officiis
+              ab aliquam repellat rem unde ducimus.
+            </p>
+          </div>
+        </div>
+        <!--Card-->
+      </div>
+      <!--Grid column-->
+    </div>
+    <!-- Grid row -->
+  </section>
+  <!-- Section: Testimonials v.1 -->
+
+  <section class="text-center my-5 p-1" style="background-image: url(../images/gradTaust3.jpg); background-position: center;  background-size: cover;
 background-repeat: no-repeat;">
     <h2>BENEFITS</h2>
-<div class="card-deck" style="margin: 2em 2em">
-  <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap">
-    <div class="card-body">
-      <h4 class="card-title">Best price</h4>
-      <p style="font-size: 0.9em">30-days free trial for new members. After that memberships from €14.99/month</p>
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="/images/card1.jpg" alt="Card image cap" />
+        <div class="card-body">
+          <h3 class="card-title">Best price</h3>
+          <p>
+            30-days free trial for new members. After that memberships from
+            €14.99/month
+          </p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted"></small>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="/images/card2.jpg" alt="Card image cap" />
+        <div class="card-body">
+          <h3 class="card-title">We are everywhere</h3>
+          <p>
+            Over 20 gyms nationwide in great locations
+          </p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted"></small>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="/images/card3.jpg" alt="Card image cap" />
+        <div class="card-body">
+          <h3 class="card-title">Always waiting for you</h3>
+          <p>
+            Our gyms are open 24/7 in all locations
+          </p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted"></small>
+        </div>
+      </div>
     </div>
-    <div class="card-footer">
-      <small class="text-muted"></small>
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap">
-    <div class="card-body">
-      <h4 class="card-title">We are everywhere</h4>
-      <p style="font-size: 0.9em">Over 20 gyms nationwide in great locations</p>
-    </div>
-    <div class="card-footer">
-      <small class="text-muted"></small>
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap">
-    <div class="card-body">
-      <h4 class="card-title">Always waiting for you</h4>
-      <p style="font-size: 0.9em">Our gyms are open 24/7 in all locations</p>
-    </div>
-    <div class="card-footer">
-      <small class="text-muted"></small>
-    </div>
-  </div>
-</div>
-</section>
+  </section>
 
-  <hr>
+  <hr />
 
-  <div class="container-fluid" style=" height:180px;background-color:#1D3A58">
+  <div class="container-fluid" style=" height:190px;background-color:#1D3A58">
     <div class="row">
-      <div class="col">
+      <div class="col"></div>
+      <div class="col-6" style="text-align:center; padding-top: 0.5em; padding-bottom: 0.2em; color:azure">
+        <h3>Time is faster than you</h3>
+        <ul class="navbar-nav" style="text-align: center">
+          <li class="nav-item align-baseline">
+            <span class="navbar-text " style="color:azure">
+              30-days FREE trial offer ends in:
+            </span>
+            <br class="mobile-break" />
+            <a id="countDown2"></a>
+            <br class="mobile-break" />
+          </li>
+        </ul>
       </div>
-      <div class="col-6" style="text-align:center; padding-top: 0.7em; padding-bottom: 0.2em; color:azure">
-        <h4>Time is faster than you</h4>
-      </div>
-      <div class="col">
-      </div>
+      <div class="col"></div>
     </div>
     <div class="row">
-      <div class="col">
-      </div>
+      <div class="col"></div>
       <div class="col-6" style="text-align:center">
-        <button type="button" class="btn btn-primary" style="width:100%">JOIN NOW</button>
+        <button type="button" class="btn btn-primary" style="width:100%; font-size: 1.2em;">
+          JOIN NOW
+        </button>
       </div>
-      <div class="col">
-      </div>
+      <div class="col"></div>
     </div>
   </div>
 
-  <div class="container-fluid" style="height:150px"></div> <!-- vahe enne footerit -->
+  <div class="container-fluid" style="height:150px"></div>
+  <!-- vahe enne footerit -->
 
   <footer style="color:white">
-    <div class="container-fluid" style=" height:150px; background-color:#1D3A58">
+    <div class="container-fluid" style=" height:90px; background-color:#1D3A58">
       <div class="row">
-        <a class="navbar-brand" href="#" >
-          <img src="images/logo.svg" width="60" height="60" style="padding-left: 0.3em" class="d-inline-block align-top" alt="">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.svg" width="60" height="60" style="padding-left: 0.3em" class="d-inline-block align-top"
+            alt="" />
         </a>
-    
+
         <div class="col-6" style="text-align:center; padding: 0.7em">
           <h6>Footerisse sotsmeedia nupud</h6>
         </div>
-        <div class="col">
-        </div>
+        <div class="col"></div>
       </div>
     </div>
   </footer>
@@ -268,7 +295,6 @@ background-repeat: no-repeat;">
 
     // Update the count down every 1 second
     var x = setInterval(function () {
-
       // Get todays date and time
       var now = new Date().getTime();
 
@@ -277,47 +303,94 @@ background-repeat: no-repeat;">
 
       // Time calculations for days, hours, minutes and seconds
       var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var hours = Math.floor(
+        (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+      );
       var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
       // Output the result in an element with id="demo"
-      document.getElementById("countDown").innerHTML = days + "d " + hours + "h "
-        + minutes + "m " + seconds + "s ";
+      document.getElementById("countDown").innerHTML =
+        days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
 
-      // If the count down is over, write some text 
+      // If the count down is over, write some text
       if (distance < 0) {
         clearInterval(x);
         document.getElementById("countDown").innerHTML = "EXPIRED";
       }
     }, 1000);
-    
+
+    // Set the date we're counting down to TEINE
+    var countDownDate = new Date("June 22, 2019 15:37:25").getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function () {
+      // Get todays date and time
+      var now = new Date().getTime();
+
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor(
+        (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+      );
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      // Output the result in an element with id="demo"
+      document.getElementById("countDown2").innerHTML =
+        days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+      // If the count down is over, write some text
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("countDown2").innerHTML = "EXPIRED";
+      }
+    }, 1000);
     //fade teema facebook
-    $(window).scroll(function(){
-  var threshold = 500; // number of pixels before bottom of page that you want to start fading
-  var op = (($(document).height() - $(window).height()) - $(window).scrollTop()) / threshold;
-	if( op <= 0 ){
-		$("#faceID").hide();
-	} else {
-		$("#faceID").show();
-	}
-	$("#faceID").css("opacity", op ); 
-});
+    $(window).scroll(function () {
+      var threshold = 500; // number of pixels before bottom of page that you want to start fading
+      var op =
+        ($(document).height() - $(window).height() - $(window).scrollTop()) /
+        threshold;
+      if (op <= 0) {
+        $("#faceID").hide();
+      } else {
+        $("#faceID").show();
+      }
+      $("#faceID").css("opacity", op);
+    });
 
- //fade teema instagramm
- $(window).scroll(function(){
-  var threshold = 500; // number of pixels before bottom of page that you want to start fading
-  var op = (($(document).height() - $(window).height()) - $(window).scrollTop()) / threshold;
-	if( op <= 0 ){
-		$("#instaID").hide();
-	} else {
-		$("#instaID").show();
-	}
-	$("#instaID").css("opacity", op ); 
-});
+    //fade teema instagramm
+    $(window).scroll(function () {
+      var threshold = 600; // number of pixels before bottom of page that you want to start fading
+      var op =
+        ($(document).height() - $(window).height() - $(window).scrollTop()) /
+        threshold;
+      if (op <= 0) {
+        $("#instaID").hide();
+      } else {
+        $("#instaID").show();
+      }
+      $("#instaID").css("opacity", op);
+    });
 
+    //fade teema instagramm
+    $(window).scroll(function () {
+      var threshold = 500; // number of pixels before bottom of page that you want to start fading
+      var op =
+        ($(document).height() - $(window).height() - $(window).scrollTop()) /
+        threshold;
+      if (op <= 0) {
+        $("#hideNAV").hide();
+      } else {
+        $("#hideNAV").show();
+      }
+      $("#hideNAV").css("opacity", op);
+    });
   </script>
-
 </body>
 
 </html>

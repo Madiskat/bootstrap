@@ -86,6 +86,13 @@ body {
   color:#FB9708;
 }
 
+#countDown2 {
+  font-size: 1.2em;
+  text-align: center;
+  color:#FB9708;
+}
+
+
 #info {
   align-items: center;
 }
@@ -93,7 +100,7 @@ body {
 #offerValue {
   color: azure;
   padding: 1em;
-  margin: 1em 1em;
+  margin: 2em 1em;
 }
 
 #pohiCTA {

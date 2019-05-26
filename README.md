@@ -1,14 +1,16 @@
-#Add benefits cards imageses
+#change card2 to resolution to same as card1 and card3
 
-#Tesimonials sections change
+# Add benefits cards imageses
 
-#navbar mobile breaks added
+# Tesimonials sections change
+
+# navbar mobile breaks added
 
 # constatnt button style lining style
 
 # add socialmedia buttons to footer
 
-#background and transparent div values
+# background and transparent div values
 
 # navbar view on mobile problem
 
