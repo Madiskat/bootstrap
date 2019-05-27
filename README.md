@@ -1,5 +1,9 @@
+#bottom CTA design
+#footer
+#parallax effects
 #icons not in center in offers
-#add desktop margin to offer in desktop
+
+# add desktop margin to offer in desktop
 
 # Add benefits cards imageses
 
