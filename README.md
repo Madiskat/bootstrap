@@ -1,4 +1,5 @@
-#change card2 to resolution to same as card1 and card3
+#icons not in center in offers
+#add desktop margin to offer in desktop
 
 # Add benefits cards imageses
 

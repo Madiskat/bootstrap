@@ -10508,7 +10508,7 @@ a.text-dark:focus {
   width: 50px;
   text-align: center;
   text-decoration: none;
-  margin: 2px 1px;
+  margin: 3px 2px;
 }
 
 .fa:hover {
@@ -10517,13 +10517,11 @@ a.text-dark:focus {
 }
 
 .fa-facebook {
-  background: #3B5998;
   color: white;
   padding: 20px;
 }
 
 .fa-instagram {
-  background: #125688;
   color: white;
   padding: 20px;
 }
@@ -10538,4 +10536,16 @@ a.text-dark:focus {
 margin: 2em 2em
 }
 
+}
+
+.icons {
+  font-size: 5em !important;
+  color: #1D3A58 !important;
+  text-align: center !important;
+}
+
+
+.icons:hover {
+  color: #1D3A58 !important;
+  opacity: 1 !important;
 }
