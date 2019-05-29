@@ -2136,7 +2136,7 @@ textarea.form-control {
 }
 
 .form-group {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .form-text {
@@ -10499,9 +10499,7 @@ a.text-dark:focus {
     background-color: #1D3A58 !important;
     margin: 0px !important
   }
-  .row{
-    margin:0px !important;
-  }
+  
 }
 
 
