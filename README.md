@@ -3,6 +3,8 @@
 #parallax effects
 #icons not in center in offers
 
+# remove heading image backgrounds
+
 # add desktop margin to offer in desktop
 
 # Add benefits cards imageses
