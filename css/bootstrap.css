@@ -10499,7 +10499,6 @@ a.text-dark:focus {
     background-color: #1D3A58 !important;
     margin: 0px !important
   }
-  
 }
 
 
@@ -10551,4 +10550,19 @@ margin: 2em 2em
 .icons:hover {
   color: #1D3A58 !important;
   opacity: 1 !important;
+}
+
+  /* Parallax effect */
+.parallax { 
+  /* The image used */
+  background-image: url("/images/parallax.jpg");
+
+  /* Set a specific height */
+  height: 220px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

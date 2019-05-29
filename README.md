@@ -1,7 +1,8 @@
 #bottom CTA design
 #footer
-#parallax effects
 #icons not in center in offers
+
+# parallax effect
 
 # remove heading image backgrounds
 
