@@ -2,6 +2,8 @@
 #footer
 #icons not in center in offers
 
+# add logo only on mobile
+
 # parallax effect
 
 # remove heading image backgrounds
