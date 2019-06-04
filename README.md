@@ -1,6 +1,9 @@
 #bottom CTA design
 #footer
-#icons not in center in offers
+#membership plans card heights not equal
+
+
+# icons not in center in offers
 
 # add logo only on mobile
 
