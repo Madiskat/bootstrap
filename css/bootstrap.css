@@ -10492,6 +10492,8 @@ a.text-dark:focus {
 
 @media (max-width: 767px) {
 
+  .navbar-nav { width: 100%; }
+
   .container-fluid {
     
     padding-right: 0em !important;
@@ -10547,7 +10549,7 @@ a.text-dark:focus {
   margin: 0px !important;
 }
 #kaartID2 {
-margin: 2em 2em
+margin: 2em 2em;
 }
 
 }
@@ -10671,7 +10673,7 @@ margin: 2em 2em
     color: #fff;
 } 
 #generic_price_table{
-    margin: 50px 0 50px 0;
+    margin: 24px 0 px 0;
     font-family: 'Crimson Text', sans-serif;
 }
 .row .table{

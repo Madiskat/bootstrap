@@ -1,4 +1,3 @@
-#bottom CTA design
 #footer
 #membership plans card heights not equal
 
