@@ -10513,6 +10513,11 @@ a.text-dark:focus {
    #offerValue{
     margin-top: 0px !important
   }
+
+  #bottom_logo{
+    padding-left: 1em !important
+  }
+
 }
 
 
@@ -10551,6 +10556,7 @@ a.text-dark:focus {
 #kaartID2 {
 margin: 2em 2em;
 }
+
 
 }
 

@@ -35,8 +35,8 @@
     </ul>
 
     <form class="form-inline  d-none d-lg-block">
-      <a href="#" class="fa fa-facebook" id="faceID"></a>
-      <a href="#" class="fa fa-instagram" id="instaID"></a>
+      <a href="#" class="fa fa-facebook" id="faceID" aria-label="Facebook link"></a>
+      <a href="#" class="fa fa-instagram" id="instaID" aria-label="Instagram link"></a>
     </form>
   </nav>
 
@@ -47,7 +47,7 @@
         <div class="col-lg-6" id="offerValue"
           style="padding-bottom: 2em; padding-top: 1em; background: rgba(29, 58, 88, 0.90); margin-bottom: 1.5em">
           <div class="d-lg-none" style="text-align: center"><img src="images/Logo_GymFit2.svg" alt="GymFit logo"
-              height="100px">
+              height="90px">
           </div>
           <h1 class=" vertical" style="margin-bottom: 0.1em; text-align:center; font-size: 3em; font-weight: bold; ">
             30-DAYS FREE TRIAL <br />
@@ -182,8 +182,9 @@
     <div class="row">
       <div class="col-md-12" id="kaartID2">
         <div class="form-group has-search">
-          <span class="fa fa-search form-control-feedback" ></span>
-          <input type="text" class="form-control" placeholder="Enter city or street name" aria-label="Enter city or street name"/>
+          <span class="fa fa-search form-control-feedback"></span>
+          <input type="text" class="form-control" placeholder="Enter city or street name"
+            aria-label="Enter city or street name" />
         </div>
         <div class="row">
           <div class="col-md-12">
@@ -512,20 +513,29 @@
   <!-- vahe enne footerit -->
 
   <footer style="color:white">
-    <div class="container-fluid" style=" height:90px; background-color:#1D3A58">
-      <div class="row">
-        <a class="navbar-brand" href="#">
-          <img src="images/Logo_GymFit2.svg" width="140px" height="100%" style="padding-left: 0.3em"
-            class="d-inline-block align-top" alt="GymFit logo" />
-        </a>
-
-        <div class="col-6" style="text-align:center; padding: 0.7em">
-          <h6>Footerisse sotsmeedia nupud</h6>
+    <div class="container-fluid" style=" background-color:#1D3A58">
+      <div class="row" style="margin-left: 1em; margin-right: 1em;">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 mb-lg-0 mb-4">
+          <a class="navbar-brand" href="#">
+            <img src="images/Logo_GymFit2.svg" id="bottom_logo" width="140px" height="100%" style="padding-left: 0.3em"
+              class="d-inline-block align-top" alt="GymFit logo" />
+          </a>
         </div>
-        <div class="col"></div>
+
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 mb-lg-0 mb-4" style="text-align: center">
+          <h6>Footerisse </h6>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 mb-lg-0 mb-4" style="text-align: center">
+          <form class="form-inline">
+            <a href="#" class="fa fa-facebook" id="faceID2" aria-label="Facebook link"></a>
+            <a href="#" class="fa fa-instagram" id="instaID2" aria-label="Instagram link"></a>
+          </form>
+        </div>
       </div>
     </div>
   </footer>
+
 
   <script>
     // Set the date we're counting down to
