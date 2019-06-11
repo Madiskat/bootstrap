@@ -1,6 +1,7 @@
-#footer
+
 #membership plans card heights not equal
-#test folder
+
+# footer
 
 # icons not in center in offers
 

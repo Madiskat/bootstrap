@@ -122,6 +122,15 @@ body {
   margin: 0.1em;
 }
 
+#footerText{
+  text-align: center;
+  padding: 4px;
+}
+
+.bottom-logo{
+ 
+  text-align: center;
+}
 
 
 .vertical {
@@ -10621,6 +10630,7 @@ a.text-dark:focus {
   color: white;
   padding: 4px;
   font-size: 160% !important;
+  
 }
 
 
@@ -11101,17 +11111,17 @@ margin: 2em 2em;
 /* -------- footer -------- */
 .foot{
   background-color:#1D3A58;
-  padding:14px;
+  padding-top:12px;
   color:white;
   margin:0;
   
 }
 .foot h1{
-  font-size: 200%;
+  font-size: 130%;
 }
 
 .foot h2, .foot a{
-  font-size: 130%;
+  font-size: 120%;
   color:white;
  letter-spacing:0.3em;
 }
