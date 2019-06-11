@@ -138,6 +138,16 @@ body {
   color: azure;
 }
 
+.em-bottom-padding{
+  padding-bottom: 0.7em;
+}
+
+
+.testimonial-name{
+  background-color: #2d5886;
+  color: azure;
+}
+
 .text-center.my-5.p-1 > h2 {
   margin-bottom: 10px;
   color: azure;
@@ -714,6 +724,17 @@ pre code {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+}
+
+.row-value {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 .no-gutters {
