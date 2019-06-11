@@ -81,6 +81,12 @@ body {
   outline: 0 !important;
 }
 
+#offerValue > h2 {
+  margin-top: 1.8em;
+  color: azure;
+  text-align: center
+}
+
 #countDown {
   text-align: center;
   color:#FB9708;
@@ -101,6 +107,9 @@ body {
   color: azure;
   padding: 1em;
   margin: 2em 1em;
+  padding-bottom: 2em;
+  padding-top: 1em;
+  background: rgba(29, 58, 88, 0.90);
 }
 
 #pohiCTA {
@@ -112,6 +121,14 @@ body {
   width: 180px;
   margin: 0.1em;
 }
+
+
+.text-center.my-5.p-1 > h2 {
+  margin-bottom: 10px;
+  color: azure;
+  background-color: #1D3A58
+}
+
 
 hr {
   box-sizing: content-box;
