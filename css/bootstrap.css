@@ -122,19 +122,41 @@ body {
   margin: 0.1em;
 }
 
+#bottom_logo {
+  padding-left: 0.3em
+}
+
+.vertical {
+  margin-bottom: 0.1em;
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.value-headings{
+  background-color: #2d5886;
+  color: azure;
+}
 
 .text-center.my-5.p-1 > h2 {
   margin-bottom: 10px;
   color: azure;
-  background-color: #1D3A58
+  background-color: #1D3A58;
 }
 
+.view {
+  background-image: url(../images/taust6.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 60px;
+}
 
 hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
-  padding: 0.2em;
+  padding: 0.1em;
 }
 
 h1,
@@ -674,6 +696,15 @@ pre code {
   padding-left: 2em;
   margin-right: auto;
   margin-left: auto;
+}
+
+.container-fluid2 {
+  width: 100%;
+  padding-right: 2em;
+  padding-left: 2em;
+  margin-right: auto;
+  margin-left: auto;
+  height:100%;
 }
 
 .row {
@@ -4525,6 +4556,7 @@ input[type="button"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  text-align: center;
 }
 
 .navbar-nav .nav-link {
@@ -4541,6 +4573,7 @@ input[type="button"].btn-block {
   display: inline-block;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  color: azure !important;
 }
 
 .navbar-collapse {
@@ -10519,6 +10552,13 @@ a.text-dark:focus {
  /* .container-fluid, .row {
     padding:6px;
   }*/
+
+  .container-fluid2 {
+    
+    padding-right: 0em !important;
+    padding-left: 0em !important;
+  }
+
   .navbar-header {
     margin:0px;
   }
