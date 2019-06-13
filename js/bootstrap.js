@@ -4688,6 +4688,7 @@ $(window).scroll(function () {
 	$("#faceID").css("opacity", op);
 });
 
+
 //fade teema instagramm
 $(window).scroll(function () {
 	var threshold = 600; // number of pixels before bottom of page that you want to start fading
@@ -4702,9 +4703,13 @@ $(window).scroll(function () {
 	$("#instaID").css("opacity", op);
 });
 
+
+	/**
+
+
 //fade teema navBar
 $(window).scroll(function () {
-	var threshold = 500; // number of pixels before bottom of page that you want to start fading
+	var threshold = 200; // number of pixels before bottom of page that you want to start fading
 	var op =
 		($(document).height() - $(window).height() - $(window).scrollTop()) /
 		threshold;
@@ -4715,3 +4720,6 @@ $(window).scroll(function () {
 	}
 	$("#hideNAV").css("opacity", op);
 });
+
+
+   */
