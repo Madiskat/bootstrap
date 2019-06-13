@@ -169,6 +169,11 @@ body {
   padding-top: 60px;
 }
 
+a.nounderline:link 
+{ 
+text-decoration:none; 
+} 
+
 hr {
   box-sizing: content-box;
   height: 0;
@@ -10572,6 +10577,8 @@ a.text-dark:focus {
 
   .navbar-nav { width: 100%; }
 
+  
+
   .container-fluid {
     
     padding-right: 0em !important;
@@ -10647,9 +10654,14 @@ a.text-dark:focus {
   padding-right: 10%;
   margin: 0px !important;
 }
+
 #kaartID2 {
 margin: 2em 2em;
 }
+
+.view {
+  height: 70vh;
+  }
 
 
 }
