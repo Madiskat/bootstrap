@@ -4636,7 +4636,7 @@ var x = setInterval(function () {
 
 	// Output the result in an element with id="demo"
 	document.getElementById("countDown").innerHTML =
-		days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+		days + "d " + hours + "h " + minutes + "m ";
 
 	// If the count down is over, write some text
 	if (distance < 0) {
@@ -4646,7 +4646,7 @@ var x = setInterval(function () {
 }, 1000);
 
 // Set the date we're counting down to TEINE
-var countDownDate = new Date("June 22, 2019 15:37:25").getTime();
+var countDownDate = new Date("June 30, 2019 15:37:25").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function () {
@@ -4704,22 +4704,22 @@ $(window).scroll(function () {
 });
 
 
-	/**
+/**
 
 
 //fade teema navBar
 $(window).scroll(function () {
-	var threshold = 200; // number of pixels before bottom of page that you want to start fading
-	var op =
-		($(document).height() - $(window).height() - $(window).scrollTop()) /
-		threshold;
-	if (op <= 0) {
-		$("#hideNAV").hide();
-	} else {
-		$("#hideNAV").show();
-	}
-	$("#hideNAV").css("opacity", op);
+var threshold = 200; // number of pixels before bottom of page that you want to start fading
+var op =
+	($(document).height() - $(window).height() - $(window).scrollTop()) /
+	threshold;
+if (op <= 0) {
+	$("#hideNAV").hide();
+} else {
+	$("#hideNAV").show();
+}
+$("#hideNAV").css("opacity", op);
 });
 
 
-   */
+*/
