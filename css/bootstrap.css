@@ -124,8 +124,9 @@ body {
 }
 
 #footerText{
-  text-align: center;
-  padding: 4px;
+  text-align: left;
+  padding: 20px;
+  font-size: 160%;
 }
 
 .bottom-logo{
@@ -11142,7 +11143,7 @@ margin: 2em 2em;
 /* -------- footer -------- */
 .foot{
   background-color:#1D3A58;
-  padding-top:12px;
+  padding-top:6px;
   color:white;
   margin:0;
   

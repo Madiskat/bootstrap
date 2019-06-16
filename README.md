@@ -1,5 +1,5 @@
 
-#membership plans card heights not equal
+# membership plans card heights equal
 
 # footer
 
