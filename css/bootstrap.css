@@ -846,6 +846,14 @@ pre code {
   max-width: 100%;
 }
 
+.col-md-4-price{
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 30px;
+}
+
 .col-auto {
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
@@ -1246,6 +1254,11 @@ pre code {
     max-width: 25%;
   }
   .col-md-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  .col-md-4-price {
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
@@ -10722,6 +10735,7 @@ margin: 2em 2em;
 /*PRICE COLOR CODE START*/
 #generic_price_table .generic_content{
     background-color: #fff;
+    height: 100%;
 }
 
 #generic_price_table .generic_content .generic_head_price{
@@ -10768,8 +10782,8 @@ margin: 2em 2em;
 
 #generic_price_table .generic_content .generic_price_btn a{
     border: 1px solid #FB9708; 
-    color: #2d5886;
-    
+    color: #2d5886; 
+  
 } 
 
 #generic_price_table .generic_content.active .generic_head_price .generic_head_content .head_bg,
@@ -10948,9 +10962,10 @@ margin: 2em 2em;
         width:50%;
     }
     
-    #generic_price_table .col-md-4{
+    #generic_price_table .col-md-4-price{
         float:left;
         width:50%;
+        
     }
     
     #generic_price_table .generic_content{
